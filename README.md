@@ -1,5 +1,4 @@
-# MyLecture
-## Source Codes for my class lecture
+# Source Codes for my class lecture
 
 # References
 - **Teach Yourself C++ - _Herbert Schildt_**
