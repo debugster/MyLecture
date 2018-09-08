@@ -2,5 +2,5 @@
 ## Source Codes for my class lecture
 
 # References
-- ** Teach Yourself C++ - Herbert Schildt **
-- ** C++ How to Program - Deitel & Deitel **
+- **Teach Yourself C++ - _Herbert Schildt_**
+- **C++ How to Program - _Deitel & Deitel_**
