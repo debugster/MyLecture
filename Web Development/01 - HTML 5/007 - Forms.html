@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Form Elements Example</title>
+    </head>
+    <body>
+        <h2>Input Textbox Example</h2>
+        <p>Username <input type="text"></p>
+        <p>Username (with default text) <input type="text" value="your username"></p>
+        <p>Username (with hint text) <input type="text" placeholder="your username"></p>
+        <p>Password <input type="text"></p>
+
+        <h2>Input Checkbox Example</h2>
+        <p><input type="checkbox" name="agree"> I Agree</p>
+        <p><input type="checkbox" name="agree" checked> Get notification mails (This is marked as checked by default)</p>
+
+        <h2>Input Radio Button Example</h2>
+        <p>Select gender:</p>
+        <p><input type="radio" name="gender" value="male" checked> Male (This is marked as checked by default)</p>
+        <p><input type="radio" name="gender" value="female"> Female</p>
+        <p><input type="radio" name="gender" value="other"> Other</p>
+
+        <h2>Dropdown Options Example</h2>
+        <h4>Though EEE is in top, CSE is selected by default</h4>
+        <p>Department:
+            <select>
+                <option>EEE</option>
+                <option>ETE</option>
+                <option selected>CSE</option>
+                <option>BBA</option>
+                <option>ELL</option>
+            </select>
+        </p>
+
+        <h2>Submit Button Example</h2>
+        <p>Button with default text: <input type="submit"></p>
+        <p>Button with custom text: <input type="submit" value="Accept"></p>
+        <form action="http://www.google.com/">
+            <p>Button with custom text & re-directed URL: <input type="submit" value="Google"></p>
+        </form>
+    </body>
+</html>
